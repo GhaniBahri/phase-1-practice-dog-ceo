@@ -4,6 +4,14 @@
     <meta charset="utf-8">
     <title>Intro to AJAX Practice Tasks</title>
     <script src="src/index.js" charset="utf-8"></script>
+    <style>
+      #dog-image-container{
+        display: flex; flex-direction: row;  align-items: center; justify-content: space-evenly; 
+      }
+      #dog-image-container img{
+        width: 300px; height: 300px;
+      }
+    </style>
   </head>
   <body>
     <h1>Dog CEO</h1>
@@ -15,6 +23,7 @@
     <hr>
     <label for="select-breed">Filter Breeds That Start with:</label>
     <select id="breed-dropdown" name="select-breed">
+      <option value="">all</option>
       <option value="a">a</option>
       <option value="b">b</option>
       <option value="c">c</option>
